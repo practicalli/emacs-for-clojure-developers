@@ -1,0 +1,14 @@
+chapter1.txt
+january2011.txt
+emacscommandsforclojuredevelopment.txt
+february2012.txt
+emacstipturnautofilloffwhenwritingblogposts.txt
+october2012.txt
+usingemacs24serveronmacosxforclojureandgitdevelopment.txt
+december2012.txt
+gitignoreforclojureandemacsignoreemacsbackuptempfiles.txt
+drivinggitwithemacspuremagicwithmagitpartone.txt
+drivinggitwithemacsparttwomaythelogbewithyou.txt
+january2013.txt
+tweekingemacsmodelineforclojuredevelopment.txt
+emacslivegreatclojuredeveloperenvironmentinaninstant.txt

@@ -1,0 +1,4 @@
+
+* Paredit
+paredit’s M-<up> and M-r (splice-sexp-killing-backward and raise)
+both useful for pulling expressions out of let bindings

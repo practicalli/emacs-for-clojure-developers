@@ -1,0 +1,142 @@
+## Emacs commands for Clojure development
+
+[![](images/emacs_logo.png)](http://files.fosswire.com/2010/06/emacs_logo.png)
+
+_**Update: Its nearly two years since I wrote this book and therefore several years since starting my journey into Clojure development.  Its high time I re-wrote this post!**_
+
+At the London Clojure dojo we use the amazing environment of Emacs to write and run our tests and code.  Emacs is a very powerful environment, more than just the editor it seems at first glance and using a tool written in Lisp is very fitting considering we are learning Clojure, a dialect of Lisp.
+
+As we have emacs set up to be driven by keyboard shortcuts (as we only get 10 minutes each to code) I have made a crib sheet for the most common keyboard shortcuts and commands.
+
+** **  
+**Emacs crib sheet**  
+A quick crib sheet for Clojure development using Emacs (see [setup guide)](http://clojure.jr0cket.co.uk/perfect-environment/emacs-leiningen-swank)
+
+** File Management**
+  
+
+  
+
+** Buffer Management**
+
+  
+
+
+ **Open**
+ Ctrl-X, Ctrl-F 
+  
+
+ Close Window/Buffer 
+ Ctrl-X, K 
+
+ Save 
+ Ctrl-X, Ctrl-S 
+  
+
+ Quit 
+ Ctrl-X, Ctrl-C 
+
+ Save As 
+ Ctrl-X, Ctrl-W
+  
+
+ Scroll through buffers
+ Ctrl-X, B
+
+ Save All 
+ Ctrl-X, S 
+  
+
+ **List buffers in window**
+ Ctrl-X, Ctrl-B 
+
+ Revert to File 
+ Ctrl-X, Ctrl-V 
+  
+
+ Maximise
+ Ctrl-X, 1
+
+ Revert Buffer 
+ Meta-X, revert-buffer 
+  
+
+ Split Horizontally
+
+ Ctrl-X, 2
+
+  
+
+  
+
+  
+
+** Split Vertically**
+
+ Ctrl-X, 3 
+
+** Text management**
+
+  
+
+  
+
+ **Switch focus between windows**
+
+ Ctrl-X, o 
+
+ Cut Line
+ Ctrl-k
+  
+
+Close current buffer
+
+Ctrl-X, 0 (zero) 
+
+ Paste
+ Ctrl-y
+  
+
+  
+
+  
+
+
+ Undo
+ Ctrl-_
+
+  
+
+ **Build management**
+
+ 
+
+Cut selection
+
+ Ctrl-w
+  
+
+Compile code
+
+ Ctrl-c, Ctrl-k
+
+  
+**Notes**
+
+When opening a file, use the **backscape** key to navigate to parent folder
+
+**Running the Clork project**  
+Once you have Emacs and Leiningen set up and have downloaded the clork code, you can use the project using these steps
+
+In a terminal window, change to the root of the clork project.  Run the leiningen command to run Swank
+
+**lein swank**
+
+You will get a message to saying you are connected to the Swank server
+
+Open emacs from the root of the clork project and enter the following command to connect to the Swank server
+
+**Meta-X slime connect**
+
+
+
